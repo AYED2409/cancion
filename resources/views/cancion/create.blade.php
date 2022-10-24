@@ -24,12 +24,12 @@
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
                 <label for="autor">Autor</label>
-                <input value="{{ old('autor') }}" required type="text" minlength="3" maxlength="100" class="form-control" id="autor" name="autor" placeholder="Autor de la cancion">
+                <input value="{{ old('autor') }}"  type="text" minlength="3" maxlength="100" class="form-control" id="autor" name="autor" placeholder="Autor de la cancion">
                 @error('name')
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
                 <label for="duracion">Duracion</label>
-                <input type= 'time' list='listatiempo' step="1" value="{{ old('duracion') }}" required type="text" minlength="3" maxlength="100" class="form-control" id="duracion" name="duracion" placeholder="duracion de la Cancion">
+                <input type= 'time' list='listatiempo' step="1" value="{{ old('duracion') }}"  class="form-control" id="duracion" name="duracion" placeholder="duracion de la Cancion">
                 @error('name')
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
@@ -39,17 +39,17 @@
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
                 <label for="album">Album</label>
-                <input value="{{ old('album') }}" required type="text" minlength="3" maxlength="70" class="form-control" id="album" name="album" placeholder="Album de la cancion">
+                <input value="{{ old('album') }}"  type="text" minlength="3" maxlength="70" class="form-control" id="album" name="album" placeholder="Album de la cancion">
                 @error('name')
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
                 <label for="orden">Orden</label>
-                <input type='number' min='1' max='200' value="{{ old('orden') }}" required type="text" minlength="3" maxlength="100" class="form-control" id="orden" name="orden" placeholder="Orden de la cancion">
+                <input type='number' min='1' max='200' value="{{ old('orden') }}"  class="form-control" id="orden" name="orden" placeholder="Orden de la cancion">
                 @error('name')
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
                 <label for="fechapublicacion">Fecha de Publicacion</label>
-                <input type='date' min="1948-01-01" max="2022-10-22" value="{{ old('fechapublicacion') }}" required type="text" minlength="3" maxlength="100" class="form-control" id="fechapublicacion" name="fechapublicacion" placeholder="Fecha de Publicacion de la cancion">
+                <input type='date' min="1948-01-01" max="2022-10-22" value="{{ old('fechapublicacion') }}" required  class="form-control" id="fechapublicacion" name="fechapublicacion" placeholder="Fecha de Publicacion de la cancion">
                 @error('name')
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror

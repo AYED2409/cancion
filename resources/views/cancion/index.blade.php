@@ -18,17 +18,17 @@
         <thead>
             <tr>
                 <th>Id</th>
-                                <th>Titulo</th>
-                                <th>Interprete</th>
-                                <th>Autor</th>
-                                <th>Duracion</th>
-                                <th>Genero</th>
-                                <th>Album</th>
-                                <th>Orden</th>
-                                <th>Fecha Publicacion</th>
-                                <th>Borrar</th>
-                                <th>Editar</th>
-                                <th>Ver</th>
+                <th>Titulo</th>
+                <th>Interprete</th>
+                <th>Autor</th>
+                <th>Duracion</th>
+                <th>Genero</th>
+                <th>Album</th>
+                <th>Orden</th>
+                <th>Fecha Publicacion</th>
+                <th>Borrar</th>
+                <th>Editar</th>
+                <th>Ver</th>
             </tr>                    
         </thead>
         <tbody>
